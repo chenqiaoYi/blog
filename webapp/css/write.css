@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  height: 0; }
+
+body .write_top {
+  width: 100%;
+  height: 72px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; }
+  body .write_top .write_top_content {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto; }
+    body .write_top .write_top_content .csdn_title {
+      font-size: 26px;
+      font-weight: bold;
+      font-style: italic;
+      line-height: 72px;
+      text-decoration: none; }
+    body .write_top .write_top_content .csdn_c {
+      color: red; }
+    body .write_top .write_top_content .csdn_sdn {
+      color: black; }
+    body .write_top .write_top_content .write_chuangzuo_enter {
+      font-size: 20px;
+      color: #888;
+      line-height: 72px; }
+body .write_bottom {
+  width: 100%;
+  height: 600px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background-color: #f4f4f4; }
+  body .write_bottom .write_bottom_content {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white; }
+
+/*# sourceMappingURL=write.css.map */

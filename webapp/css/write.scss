@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  height: 0;
+}
+body{
+  .write_top{
+    width: 100%;
+    height: 72px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    .write_top_content{
+      width: 1200px;
+      height: 100%;
+      margin:0 auto;
+      .csdn_title{
+        font-size: 26px;
+        font-weight: bold;
+        font-style: italic;
+        line-height: 72px;
+        text-decoration: none;
+      }
+      .csdn_c{
+        color: red;
+
+      }
+      .csdn_sdn{
+        color: black;
+      }
+      .write_chuangzuo_enter{
+        font-size: 20px;
+        color: #888;
+        line-height: 72px;
+      }
+    }
+  }
+  .write_bottom{
+    width: 100%;
+    height: 600px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color:#f4f4f4 ;
+
+    .write_bottom_content{
+      width: 1200px;
+      height: 100%;
+      margin: 0 auto;
+      background-color: white;
+    }
+  }
+}

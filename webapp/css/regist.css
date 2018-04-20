@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body .regist_main {
+  width: 100%;
+  height: 100%; }
+  body .regist_main .regist_left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 640px;
+    float: left;
+    position: relative;
+    overflow: hidden; }
+    body .regist_main .regist_left img {
+      width: 100%;
+      height: 100%;
+      display: block;
+      position: relative; }
+    body .regist_main .regist_left .regist_left_content {
+      width: 100%;
+      height: 100%;
+      float: left;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #ffffff; }
+      body .regist_main .regist_left .regist_left_content h1 {
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-bottom: 60%;
+        font-weight: bold; }
+      body .regist_main .regist_left .regist_left_content p {
+        line-height: 100%;
+        text-align: center; }
+  body .regist_main .regist_right {
+    width: 65%;
+    height: 100%;
+    padding-left: 15%;
+    float: right;
+    background-image: url("../images/registRbg.jpg"); }
+    body .regist_main .regist_right .regist_right_top {
+      margin-right: 50px;
+      font-size: 16px;
+      color: #4374e0;
+      padding: 3% 2.2% 0 0; }
+      body .regist_main .regist_right .regist_right_top .welcome_regist_title {
+        display: block;
+        font-size: 36px;
+        color: #4f4f4f;
+        line-height: 36px;
+        margin-bottom: 30px; }
+    body .regist_main .regist_right .regist_right_content {
+      width: 594px;
+      height: 520px;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 20px; }
+      body .regist_main .regist_right .regist_right_content .form_before_introduce {
+        width: 100%;
+        padding-left: 25px;
+        height: 80px;
+        border-bottom: 1px solid #d5dce5;
+        line-height: 80px;
+        margin-bottom: 40px; }
+      body .regist_main .regist_right .regist_right_content .regist_userinfo form .regist_input {
+        margin-left: 15%;
+        background: #FFFFFF;
+        display: block;
+        width: 50%;
+        padding: 12px 0;
+        border: 1px solid #d5dce5;
+        margin-bottom: 20px;
+        font-weight: normal;
+        text-indent: 23px;
+        outline: 0;
+        font-size: 1.25rem;
+        border-radius: 3px;
+        color: #d5dce5;
+        box-shadow: 0 2px 0 0 #ccc; }
+      body .regist_main .regist_right .regist_right_content .regist_userinfo form .regist_input_submit {
+        margin-left: 15%;
+        background: #c92027;
+        display: block;
+        width: 50%;
+        padding: 12px 0;
+        border: 1px solid #d5dce5;
+        margin-bottom: 20px;
+        font-weight: normal;
+        text-indent: 23px;
+        outline: 0;
+        font-size: 1.25rem;
+        border-radius: 3px;
+        color: #d5dce5;
+        box-shadow: 0 2px 0 0 #ccc; }
+    body .regist_main .regist_right .regist_right_foot {
+      margin: 25px 0;
+      width: 100%;
+      padding-left: 44px;
+      font-size: 12px;
+      color: #999; }
+
+/*# sourceMappingURL=regist.css.map */

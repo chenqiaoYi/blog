@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!--字符集-->
+    <meta charset="UTF-8">
+    <!--兼容IE版本-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--视口，因为是移动优先。width=device-width：表示打开显示的是设备的宽度；initial-scale=1：缩放比例0-1-->
+    <!--为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!--上面三个meta标签必须放在前面，其他必须跟随其后-->
+    <title>发表博客页面</title>
+
+    <!--引入Bootstraps的css-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--导入自己定义的css文件-->
+    <link href="./css/write.css" rel="stylesheet" />
+
+    <!--判断浏览器的版本，小于IE9的时候就执行其中的语句-->
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <!--让低版本的浏览器去兼容HTML5和响应式布局-->
+    <script src="lib/Respond/respond.min.js"></script>
+</head>
+<body>
+    <div class="write_top">
+        <div class="write_top_content">
+            <a href="#" class="csdn_c csdn_title">C</a>
+            <a href="#" class="csdn_sdn csdn_title">SDN</a>
+            <span class="write_chuangzuo_enter">创作中心</span>
+            <div>
+                <a></a>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="write_bottom">
+        <div class="write_bottom_content"></div>
+
+    </div>
+
+
+    <!--jQuery必须引进来，因为bootstrap是基于jQuery的框架-->
+    <script src="lib/jQuery/jquery-3.2.1.min.js"></script>
+    <!--bootstrap-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

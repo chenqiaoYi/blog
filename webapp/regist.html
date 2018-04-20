@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!--字符集-->
+    <meta charset="UTF-8">
+    <!--兼容IE版本-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--视口，因为是移动优先。width=device-width：表示打开显示的是设备的宽度；initial-scale=1：缩放比例0-1-->
+    <!--为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!--上面三个meta标签必须放在前面，其他必须跟随其后-->
+    <title>博客注册页面</title>
+
+    <!--引入Bootstraps的css-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--导入自己定义的css文件-->
+    <link href="./css/regist.css" rel="stylesheet" />
+
+    <!--判断浏览器的版本，小于IE9的时候就执行其中的语句-->
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <!--让低版本的浏览器去兼容HTML5和响应式布局-->
+    <script src="lib/Respond/respond.min.js"></script>
+</head>
+<body>
+
+    <div class="regist_main">
+        <div class="regist_left">
+            <img src="images/bg.jpg">
+            <div class="regist_left_content">
+                <h1>CSDN</h1>
+                <p>成功与不成功之间有时距离很短——只要后者再向前几步。</p>
+            </div>
+        </div>
+        <div class="regist_right">
+            <div class="regist_right_top">
+                <div class="welcome_regist_title">欢迎注册</div>
+
+            </div>
+            <div class="regist_right_content">
+                <div class="form_before_introduce">
+                    欢迎注册CSDN网站会员，如果你已拥有账户，可在此
+                    <a href="#">登陆</a>
+                </div>
+                <div class="regist_userinfo">
+                    <form>
+                        <input type="text" name="username" class="regist_input regist_input_username" value="用户名">
+                        <input type="password" name="password1" class="regist_input regist_input_password1" value="设置密码">
+                        <input type="password" name="password2" class="regist_input regist_input_password2" value="确认密码">
+                        <input type="text" name="phone" class="regist_input regist_input_phone" value="手机号">
+                        <input type="text" name="email" class="regist_input regist_input_email" value="邮箱">
+                        <input type="submit" value="立即注册" class="regist_input_submit">
+
+                    </form>
+                </div>
+            </div>
+            <div class="regist_right_foot">京 ICP 证 09002463 号 | Copyright ©
+                1999-2018, CSDN.NET, All Rights Reserved
+            </div>
+        </div>
+    </div>
+
+    <!--jQuery必须引进来，因为bootstrap是基于jQuery的框架-->
+    <script src="lib/jQuery/jquery-3.2.1.min.js"></script>
+    <!--bootstrap-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

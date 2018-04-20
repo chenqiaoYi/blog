@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <!--字符集-->
+    <meta charset="UTF-8">
+    <!--兼容IE版本-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--视口，因为是移动优先。width=device-width：表示打开显示的是设备的宽度；initial-scale=1：缩放比例0-1-->
+    <!--为了确保适当的绘制和触屏缩放，需要在 <head> 之中添加 viewport 元数据标签。-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <!--上面三个meta标签必须放在前面，其他必须跟随其后-->
+    <title>博客登陆页面</title>
+
+    <!--引入Bootstraps的css-->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <!--导入自己定义的css文件-->
+    <link href="./css/login.css" rel="stylesheet" />
+
+    <!--判断浏览器的版本，小于IE9的时候就执行其中的语句-->
+    <script src="lib/html5shiv/html5shiv.min.js"></script>
+    <!--让低版本的浏览器去兼容HTML5和响应式布局-->
+    <script src="lib/Respond/respond.min.js"></script>
+</head>
+<body>
+    <div class="login_box">
+        <div class="login_box_content">
+            <div class="login_content_left">
+                <a href="#">
+                    <img src="./images/login-banner.png">
+                </a>
+            </div>
+            <div class="login_content_right">
+                <h3>账号登陆</h3>
+                <div class="user_info">
+                    <div class="user_info_pass">
+                        <form>
+                            <input type="text" name="username" class="user_name" placeholder="输入用户名/邮箱/手机号">
+                            <input type="password" name="password" class="user_password" value autocomplete="off">
+                            <div class="row forget-password">
+                                <span class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                    <input type="checkbox" name="rememberMe" value="true" checked="checked">
+                                    <label for="rememberMe">下次自动登陆</label>
+                                </span>
+                                <span class="col-xs-6 col-sm-6 col-md-6 col-lg-6 forget_password">
+                                    <a href="#">忘记密码</a>
+                                </span>
+                            </div>
+                            <input type="button" class="logging" value="登陆">
+                        </form>
+                    </div>
+                </div>
+                <div class="login_line"></div>
+                <div class="login_right_third">
+                    <span>第三方账号登陆</span>
+                    <a href="#" class="login_qq" target="_blank"></a>
+                    <a href="#" class="login_wechat" target="_blank"></a>
+                    <a href="#" class="login_sina" target="_blank"></a>
+                    <a href="#" class="login_baidu" target="_blank"></a>
+                    <a href="#" class="login_cc" target="_blank"></a>
+                    <a href="#" class="login_github" target="_blank"></a>
+                    <div class="register-now">
+                        <span>还没有CSDN账号？</span>
+                        <span class="login_register">
+                            <a href="#">立即注册</a>
+                        </span>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--jQuery必须引进来，因为bootstrap是基于jQuery的框架-->
+    <script src="lib/jQuery/jquery-3.2.1.min.js"></script>
+    <!--bootstrap-->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
